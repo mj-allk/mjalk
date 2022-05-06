@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T09:16:36.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="laO7ZBor_EV6hHPeYqYr" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-06T09:26:52.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="feFw4GGrgtBA8zHdWZGt" version="17.4.5" type="github">
   <diagram id="FJGyW_m41Oil5FD7QTVI" name="Page-1">
     <mxGraphModel dx="1278" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -19,6 +19,9 @@
         <mxCell id="zHj45qtNkuRzu1C0QYln-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zHj45qtNkuRzu1C0QYln-5" target="zHj45qtNkuRzu1C0QYln-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="zHj45qtNkuRzu1C0QYln-5" target="zHj45qtNkuRzu1C0QYln-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zHj45qtNkuRzu1C0QYln-5" value="投币金额是否符合标准(是否为10元、5元、2元、1元和0.5元)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="37.5" y="210" width="185" height="100" as="geometry" />
         </mxCell>
@@ -28,13 +31,21 @@
         <mxCell id="zHj45qtNkuRzu1C0QYln-6" value="记录到总金额,并提示继续投币请输入1，购买饮料请输入2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="350" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zHj45qtNkuRzu1C0QYln-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zHj45qtNkuRzu1C0QYln-7" target="zHj45qtNkuRzu1C0QYln-2">
+        <mxCell id="zHj45qtNkuRzu1C0QYln-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zHj45qtNkuRzu1C0QYln-7" target="zHj45qtNkuRzu1C0QYln-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="215" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="470" />
+              <mxPoint x="280" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zHj45qtNkuRzu1C0QYln-7" target="zHj45qtNkuRzu1C0QYln-17">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="130" y="520" />
-              <mxPoint x="260" y="520" />
-              <mxPoint x="260" y="150" />
+              <mxPoint x="320" y="520" />
+              <mxPoint x="320" y="20" />
+              <mxPoint x="425" y="20" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -45,7 +56,60 @@
           <mxGeometry x="100" y="320" width="42" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zHj45qtNkuRzu1C0QYln-10" value="是1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="380" width="42" height="20" as="geometry" />
+          <mxGeometry x="240" y="300" width="42" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-16" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="208" y="200" width="42" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zHj45qtNkuRzu1C0QYln-17" target="zHj45qtNkuRzu1C0QYln-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-17" value="显示饮料类型信息、价格以及库存，提示输入饮料编号进行购买" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-20" value="是2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="300" width="42" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zHj45qtNkuRzu1C0QYln-22" target="zHj45qtNkuRzu1C0QYln-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-22" value="记录所选择饮料编号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="150" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zHj45qtNkuRzu1C0QYln-24" target="zHj45qtNkuRzu1C0QYln-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="260" />
+              <mxPoint x="540" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zHj45qtNkuRzu1C0QYln-24" target="zHj45qtNkuRzu1C0QYln-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-24" value="编号是否符合要求(1,2,3,4,5)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="225" width="115" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-27" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="170" width="42" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zHj45qtNkuRzu1C0QYln-28" target="zHj45qtNkuRzu1C0QYln-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-28" value="判断当前金额是否足够" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356.25" y="340" width="137.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-30" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="300" width="42" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-31" value="判断所选饮料是否有库存" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="371.25" y="430" width="107.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-33" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="400" width="42" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zHj45qtNkuRzu1C0QYln-34" value="显示购买成功并且找零的信息,所选饮料库存减一" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="510" width="135" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
