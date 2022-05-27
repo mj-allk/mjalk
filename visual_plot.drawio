@@ -1,1 +1,113 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T07:50:56.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="18.0.1" etag="plegFI991PtLtp7aRELK" type="github"><diagram id="80muCcu5CHFFct5DL7Aw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-27T08:03:49.721Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="vdsRMV-O_UAn8ICd3TIG" version="18.0.1" type="github">
+  <diagram id="80muCcu5CHFFct5DL7Aw" name="Page-1">
+    <mxGraphModel dx="1278" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ucpz59yphPep4u2no5E1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ucpz59yphPep4u2no5E1-1" target="ucpz59yphPep4u2no5E1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-1" value="为具有矩形排列标记的标定板生成相应的描述文件和ps文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ucpz59yphPep4u2no5E1-2" target="ucpz59yphPep4u2no5E1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-2" value="设置摄像机初始内部参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="170" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ucpz59yphPep4u2no5E1-3" target="ucpz59yphPep4u2no5E1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-3" value="定义标定板描述文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ucpz59yphPep4u2no5E1-4" target="ucpz59yphPep4u2no5E1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-4" value="标定数据模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ucpz59yphPep4u2no5E1-5" target="ucpz59yphPep4u2no5E1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-5" value="设置模型内参" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="430" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ucpz59yphPep4u2no5E1-6" target="ucpz59yphPep4u2no5E1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-6" value="设置模型标定文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ucpz59yphPep4u2no5E1-13" target="ucpz59yphPep4u2no5E1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ucpz59yphPep4u2no5E1-13" target="ucpz59yphPep4u2no5E1-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-13" value="I是否大于12" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="110" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ucpz59yphPep4u2no5E1-14" target="ucpz59yphPep4u2no5E1-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-14" value="设置循环变量I，并赋初值1。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ucpz59yphPep4u2no5E1-16" target="ucpz59yphPep4u2no5E1-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-16" value="通过I计算图片路径" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ucpz59yphPep4u2no5E1-17" target="ucpz59yphPep4u2no5E1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-17" value="根据图片路径读取图片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="290" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ucpz59yphPep4u2no5E1-18" target="ucpz59yphPep4u2no5E1-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-18" value="获取标定板内边框的区域" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ucpz59yphPep4u2no5E1-19" target="ucpz59yphPep4u2no5E1-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-19" value="&lt;div&gt;寻找标志点位置以及&lt;span style=&quot;background-color: initial;&quot;&gt;RCoord、CCoord 点的坐标&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="440" width="155" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-22" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="180" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ucpz59yphPep4u2no5E1-26" target="ucpz59yphPep4u2no5E1-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="590" />
+              <mxPoint x="530" y="590" />
+              <mxPoint x="530" y="90" />
+              <mxPoint x="410" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-26" value="设置标志点数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="530" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ucpz59yphPep4u2no5E1-27" target="ucpz59yphPep4u2no5E1-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-27" value="标定相机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-28" value="获取内部参数，获取外部参数，摄像机标定完成。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ucpz59yphPep4u2no5E1-36" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="545" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
