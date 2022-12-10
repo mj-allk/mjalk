@@ -1,1 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2022-12-10T08:29:56.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="20.0.1" etag="BetIadrA2Sp6Qyec8uuE" type="github"><diagram id="-0jsXU1VTWmk3NOjcXys">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-10T08:37:47.828Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="p6HTuFx51KhbUJoBHlcr" version="20.0.1" type="github">
+  <diagram id="-0jsXU1VTWmk3NOjcXys" name="Page-1">
+    <mxGraphModel dx="669" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-JPVt6Ou-QpjNSbj-48c-2" value="期望位置" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="172.5" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="-JPVt6Ou-QpjNSbj-48c-3" value="逆向位置运动学控制模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-JPVt6Ou-QpjNSbj-48c-4" value="角度" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.58;dx=40.4;direction=south;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="207.5" y="230" width="65" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-JPVt6Ou-QpjNSbj-48c-5" value="示波器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-JPVt6Ou-QpjNSbj-48c-6" value="关节信息" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="172.5" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="-JPVt6Ou-QpjNSbj-48c-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JPVt6Ou-QpjNSbj-48c-7" target="-JPVt6Ou-QpjNSbj-48c-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="100" />
+              <mxPoint x="240" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-JPVt6Ou-QpjNSbj-48c-7" value="正向位置运动学控制模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-JPVt6Ou-QpjNSbj-48c-8" value="运动信息" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="167.5" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="-JPVt6Ou-QpjNSbj-48c-10" value="示波器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="320" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-JPVt6Ou-QpjNSbj-48c-11" value="Quanser_3d&lt;br&gt;Viewer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-JPVt6Ou-QpjNSbj-48c-12" value="机械臂状态" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="165" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-JPVt6Ou-QpjNSbj-48c-16" value="位置" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.58;dx=40.4;direction=south;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="427.5" y="230" width="65" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-JPVt6Ou-QpjNSbj-48c-20" value="末端执行器位置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
